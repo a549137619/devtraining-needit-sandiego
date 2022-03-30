@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="客户表" max_length="40" name="x_58872_needit_customer" type="collection">
+        <element label="地址" max_length="40" name="address" type="string"/>
+        <element label="公司" max_length="40" name="company" type="string"/>
+        <element label="部门" max_length="40" name="department" type="string"/>
+        <element label="邮箱" max_length="40" name="email" type="string"/>
         <element label="名称" max_length="40" name="name" type="string"/>
+        <element label="密码" max_length="255" name="password" type="password2"/>
     </element>
 </database>
