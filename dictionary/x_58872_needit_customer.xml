@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="客户表" max_length="40" name="x_58872_needit_customer" type="collection">
+    <element label="客户表" max_length="40" name="x_58872_needit_customer" sizeclass="1" type="collection">
+        <element label="a" max_length="40" name="a" type="string"/>
         <element label="地址" max_length="40" name="address" type="string"/>
         <element label="公司" max_length="40" name="company" type="string"/>
         <element label="部门" max_length="40" name="department" type="string"/>
